@@ -1,4 +1,4 @@
-# Web Performance Monitoring Chrome Plugin
+# Chrome Plugin
 
 
 
