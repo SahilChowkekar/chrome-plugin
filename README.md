@@ -69,6 +69,7 @@ cd chrome-plugin
 - **Browser Compatibility**: Primarily designed for Google Chrome.
 
 
+## Preview of Chrome Plugin in Action
 Here's a preview of the Chrome Plugin in action:
 
 ![Dom](https://github.com/SahilChowkekar/chrome-plugin/blob/master/Images/Dom.png)
