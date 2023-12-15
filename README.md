@@ -20,6 +20,7 @@ Follow these steps to install and use the Chrome Extension:
 
 #### Cloning the Repository
 1. Open your terminal or command prompt.
+
 2. Clone the repository using Git:
    ```bash
    git clone https://github.com/SahilChowkekar/chrome-plugin.git
