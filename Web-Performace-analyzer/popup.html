@@ -1,0 +1,91 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="vendors/chartist.min.css">
+<!-- Template for displaying key performance data like DOM load time, resource count, memory usage, etc. -->
+<script type="text/x-template" id="data-header">
+    {{#data}}
+    <div class="row-wrapper">
+    	<div class="col-3">
+    		<h3 class="load-title">DOM Content Loading*</h3>
+    		<div class="load-times">{{contentLoaded}} ms</div>
+    	</div>
+    	
+
+		<div class="col-3">
+    		<h3 class="load-title">Total No.of Resources*</h3>
+    		<div class="load-times">{{totalResources}}</div>
+    	</div>
+
+		<div class="col-3">
+    		<h3 class="load-title">Overall Memory Usage*</h3>
+    		<div class="load-times">{{totalMemory}}</div>
+    	</div>
+
+		<div class="col-3">
+    		<h3 class="load-title">Total Size downloaded*</h3>
+    		<div class="load-times">{{totalSize}}</div>
+    	</div>
+
+		<div class="col-3">
+    		<h3 class="load-title">Total Since Page Open*</h3>
+    		<div class="load-times">{{totalTimeOpen}}</div>
+    	</div>
+
+    	<div class="col-3">
+    		<h3 class="load-title">Total Page Loading*</h3>
+    		<div class="load-times">{{onLoad}} ms</div>
+    	</div>
+    </div>
+    
+    {{/data}}
+</script>
+
+<!-- Template for displaying a message when no data is available -->
+<script type="text/x-template" id="broken">
+    <div class="whoops">
+    	<div class="header">
+    		Oops! It seems there's no information available here.
+    	</div>
+    	<div class="broken">
+    		<img src="icons/broken.png" width="300">
+    	</div>
+    </div>
+</script>
+
+<!-- Template for the page resource distribution chart -->
+<script type="text/x-template" id="chart-pageStats">
+   
+	
+	<div class="page-stats2">
+    	<div class="chart-size">
+    		<div class="chart-type">
+    			<h3 class="chart-main">Page Resource Distribution</h3>
+    			<span class="info-text">(The aggregate count of assets on the page when it loads)</span>
+    		</div>
+    		<div class="ct-perfect-fourth ct-number-pie"></div>
+    	</div>
+    </div>
+    {{#data}}
+    	
+    {{/data}}
+</script>
+
+<!-- Main wrapper for the content of the page -->
+<div class="wrapper">
+    <div class="head-info">  </div>
+    <div class="navigation">
+        <ul class="nav" id="main-navigation">
+          
+            <li class="nav-item" render="stats">Page Analytics</li>
+			
+        </ul>
+    </div>
+    <div class="chart-wrapper">
+    </div>
+</div>
+
+<script type="text/javascript" src="vendors/jqlite.min.js"></script>
+<script type="text/javascript" src="vendors/chartist.min.js"></script>
+<script type="text/javascript" src="vendors/chartist-tooltip.min.js"></script>
+<script type="text/javascript" src="vendors/mustache.min.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+<script type="text/javascript" src="asyncTracking.js"></script>

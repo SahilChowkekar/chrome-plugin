@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "timeFont";
+    src: url(vendors/digi2.ttf);
+}
+.wrapper {
+    width: 450px;
+    background: #FFFFFF;
+    color: #121212;
+}
+.ct-chart {
+    width: 500px;
+    left: 10px;
+}
+.load-times {
+    font-weight: bold;
+    font-family: "cursive";
+    font-size: 25px;
+    color: #1270b7;
+}
+.col-3 .load-title {
+    font-style: bold;
+}
+.chart-type {
+    margin: 10px 0;
+    text-align: center;
+}
+.chart-type1 {
+    margin: 10px 0;
+    text-align: center;
+}
+.chart-type .chart-main {
+    margin: 8px;
+    font-size: 13px;
+    text-align: center;
+}
+.chart-type .info-text {
+    font-size: 10px;
+    font-style: italic;
+}
+.row {
+    width: 100%;
+}
+.row .col-2 {
+    width: 50%;
+    float: left;
+    margin: 10px 0;
+}
+.text-center {
+    text-align: center;
+}
+.top-ten {
+    position: relative;
+    min-height: 375px;
+}
+.top-ten .x-axis {
+    position: absolute;
+    left: -20px;
+    top: 40%;
+    font-style: italic;
+    font-size: 10px;
+    transform: translateY(-50%) rotate(-90deg);
+}
+.row-wrapper {
+    width: 100%;
+    overflow: auto;
+    margin: 20px 0;
+    color: #121212;
+}
+.row-wrapper .col-3 {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.navigation {
+    overflow: auto;
+    margin: 30px 0 8px;
+  
+}
+.nav {
+    list-style-type: none;
+    text-align: center;
+    overflow: auto;
+   
+}
+.nav li {
+    width: 50%;
+    /* float: left; */
+    float: none; /* Clear the float to center the item */
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.nav li.selected {
+    border-bottom: 2px solid #1270b7;
+    font-weight: bold;
+}
+
+.nav li.selected:hover {
+    /* Define your hover styles here */
+    /* For example, you can change the color on hover */
+    background-color: #f0f0f0;
+}
+
+.head-subtitle {
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.whoops .header {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+.whoops .broken {
+    text-align: center;
+    margin: 25px;
+}
+.no-download-text,
+.no-resource-text {
+    top: 150px;
+    margin-top: -75px;
+    font-size: 10px;
+}
+.no-requests-text {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: bold;
+}
+.page-stats {
+    overflow: auto;
+    height: 500px;
+    /* float: center; */
+}
+.other-stats {
+    font-weight: bold;
+}
+.page-stats2 .chart-size {
+    width: 100%;
+    float: center;
+    text-align: center;
+   
+    /* height: 50px; */
+}
+.page-stats1 {
+    /* overflow: auto; */
+    height: 300px;
+    /* float: center; */
+}
+nav-item{
+    font-weight: bold;
+}
+
