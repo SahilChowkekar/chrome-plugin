@@ -4,7 +4,7 @@
 
 ## Overview
 
-This Chrome Extension is a comprehensive tool designed for monitoring and analyzing web page performance. It provides real-time insights into web resources, offering actionable information to optimize page efficiency. This extension is especially beneficial for web developers and educational purposes in web performance.
+This Chrome Plugin is a comprehensive tool designed for monitoring and analyzing web page performance. It provides real-time insights into web resources, offering actionable information to optimize page efficiency. This extension is especially beneficial for web developers and educational purposes in web performance.
 
 ### Key Features
 
